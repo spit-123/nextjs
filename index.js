@@ -1,1 +1,9 @@
-echo "export default function Home() { return <h1>Hello, Next.js!</h1> }" > pages/index.js
+// pages/index.js
+export default function Home() {
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Welcome to My Next.js App!</h1>
+    </div>
+  );
+}
+
